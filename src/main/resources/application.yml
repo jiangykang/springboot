@@ -1,0 +1,18 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /springboot
+name: jiang
+age: 26
+
+person:
+  name: jiangyongkang
+  age: 26
+  school: hfut
+
+#配置视图解析器
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
