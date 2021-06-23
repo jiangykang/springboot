@@ -1,3 +1,4 @@
+
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -31,3 +32,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+.idea
+target
+*.iml
+*-dev.yml
+blog-vue/node_modules
+blog-vue/yarn.lock
+
