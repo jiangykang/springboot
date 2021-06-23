@@ -63,6 +63,18 @@
                     <include>*.*</include>
                 </includes>
             </resource>
+
+            <!--
+                    手动指定文件夹为resources
+                    指定编译xml文件
+                    **/*.xml表示子包里的xml
+            -->
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
         </resources>
         <plugins>
             <plugin>
