@@ -1,9 +1,7 @@
 package cn.edu.hfut.springboot.mapper;
 
 import cn.edu.hfut.springboot.model.Student;
-import org.apache.ibatis.annotations.Mapper;
 
-//@Mapper
 public interface StudentMapper {
     int deleteByPrimaryKey(Integer id);
 
