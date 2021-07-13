@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>${data}</h1>
+<div th:text="${data}"></div>
+<div th:text="*{data}"></div>
+<form method="get" action="/add">
+    11111:<input th:type="input" th:value="${data}"/><br>
+    22222:<input th:type="text" th:value="${data}"/><br>
+    <button type="submit">提交</button>
+</form>
+</body>
+</html>
